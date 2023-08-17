@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alton's Portfolio</title>
+  <link href="output.css" rel="stylesheet">
+</head>
+
+<body class="text-white bg-sky-950 border-box m-0 p-0 bg-auto font-mono">
+
+  <!-- Header/Navbar Section -->
+  <header class="fixed top-0 left-0 right-0 bg-sky-950 text-white p-4 flex justify-between items-center">
+    <div class="ml-8">
+      <a href="#"><img src="./images/logo.png" alt="Logo" class="w-16"></a>
+    </div>
+    <nav>
+      <ul class="flex space-x-16 text-3xl pr-8">
+        <li><a href="#home" class="hover:text-lime-500">Home</a></li>
+        <li><a href="#about" class="hover:text-lime-500">About</a></li>
+        <li><a href="#projects" class="hover:text-lime-500">Projects</a></li>
+        <li><a href="#contact" class="hover:text-lime-500">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="pt-20"> <!-- Add padding-top to create space for fixed header -->
+
+    <section id="home" class="p-8 text-center">
+
+      <div class="flex justify-center items-center">
+        <img src="./images/frog.png" alt="frog" class="bg-green-800 rounded-full border-8 border-green-950">
+      </div>
+
+      <div class="py-8">
+
+        <h1 class="text-5xl font-semibold p-8">ALTON PHAN</h1>
+        <p class="text-3xl">Aspiring <span class="text-lime-500">Software Engineer</span> and <span class="text-lime-500">Computer Science Student</span></p>
+
+        <!-- replace with better pictures -->
+        <ul class="flex space-x-16 justify-center p-8">
+          <li><a href="#"><img src="images/linkedin.png" class="w-16 h-16" alt="linkedin"></a></li>
+          <li><a href="#"><img src="images/github.png" class="w-16 h-16" alt="github"></a></li>
+          <li><a href="#"><img src="images/cv.png" class="w-16 h-16" alt="cv"></a></li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="p-8 pb-32 mx-auto text-center">
+      <h2 class="text-4xl font-semibold">About Me</h2>
+      <h3 class="font-black mb-4">________________________</h3>
+      <p class="flex justify-center text-center mx-auto text-xl max-w-5xl">
+        Hello my name is Alton Phan! I am a junior at University of Houston pursuing a 
+        B.S. majoring in Computer Science with a minor in Mathematics. I am passionate 
+        about software engineering, web development, and just about anything inside of 
+        the tech realm. I am excited to contribute and experience more technological innovations in my time
+        and hope that I can make a long lasting impact in the field. 
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="p-8 mx-auto text-center">
+      <h2 class="text-4xl font-semibold">Projects</h2>
+      <h3 class="font-black">________________________</h3>
+      <!-- project details, descriptions, links, etc. -->
+      <ul class="text-2xl">
+        <li class="p-4 font-semibold"><a href="#">Alton's Portfolio Website | HTML, TailwindCSS, Javascript</a></li>
+        <li class="p-4 font-semibold"><a href="#">Custom Trained AI Chatbot | Python, HTML, CSS, Flask</a></li>
+        <li class="p-4 font-semibold"><a href="#">Server Client Simulation | C++</a></li>
+        </ul>
+        <p class="text-lg italic p-4">click on projects for source code</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="p-64 mx-auto text-center">
+      <h2 class="text-4xl font-semibold mb-4">Contact Me</h2>
+      <p>Put a name, email, message, and submit here</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-right p-4">
+      <p>Built by Alton Phan</p>
+    </footer>
+
+  </main>
+
+</body>
+
+</html>
