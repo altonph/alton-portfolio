@@ -2,19 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-.underline-with-space {
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    padding-bottom: 16px; /* Adjust the space between text and underline */
-  }
 
-  .underline-with-space::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 3px;
-    background-color: white; /* Adjust the underline color */
-  }
+
+    /* Additional CSS styles for the frog image container */
+    .frog-container {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .frog-image {
+      border-radius: 50%;
+      width: 200px;
+      height: 200px;
+      background-color: #ffffff; /* Initial background color */
+      transition: background-color 0.5s;
+      cursor: pointer;
+    }
+
+    .text-2xl a:hover {
+        transform: scale(1.05);
+      }
