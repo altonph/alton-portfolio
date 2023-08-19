@@ -693,6 +693,18 @@ video {
   width: 100%;
 }
 
+.w-2 {
+  width: 0.5rem;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -853,6 +865,10 @@ video {
   padding-top: 5rem;
 }
 
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -989,8 +1005,24 @@ video {
   cursor: pointer;
 }
 
-.text-2xl a:hover {
-  transform: scale(1.05);
+body::-webkit-scrollbar {
+  width: 10px
+}
+
+body::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: rgb(22, 22, 22);
+}
+
+body::-webkit-scrollbar-thumb {
+  border: 1px solid transparent;
+  border-radius: 10px;
+  background-color: rgb(95, 95, 95);
+  background-clip: padding-box;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: lightgray;
 }
 
 .hover\:scale-110:hover {
@@ -1062,6 +1094,14 @@ video {
 
   .md\:pb-24 {
     padding-bottom: 6rem;
+  }
+
+  .md\:transition {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
   }
 }
 

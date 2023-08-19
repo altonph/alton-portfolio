@@ -17,8 +17,8 @@
   <!-- Header/Navbar Section big -->
   <header class="hidden lg:flex fixed top-0 left-0 right-0 bg-sky-950 text-white p-2 md:p-4 justify-between items-center z-50 h-16">
 
-    <div class="mr-4 mt-4">
-      <a href="#"><img src="./images/logo.png" alt="Logo" class="w-10"></a>
+    <div class="ml-4 mt-4">
+      <a href="index.html"><img src="./images/logo.png" alt="Logo" class="w-12 transition-transform transform hover:scale-110"></a>
     </div>
   
     <nav class="ml-4 mt-4">
@@ -32,7 +32,7 @@
   
   </header>
 
-  <!-- header for small screens -->
+  <!-- header for mobile -->
   <header class="bg-sky-950 opacity-95 text-white  flex justify-between items-center lg:hidden fixed top-0 left-0 right-0">
     <div class="ml-4">
       <a href="#"><img src="./images/logo.png" alt="Logo" class="w-12 pt-2 mt-2"></a>
@@ -40,57 +40,67 @@
     <div class="mr-4 text-sm text-right text-gray-300 pt-2 mt-2">Built by Alton Phan <br> Designed by Jorell Padilla </div>
   </header>
 
-  <main class="pt-20"> <!-- Add padding-top to create space for fixed header -->
+  <main class="pt-20">
 
-    <section class="text-center p-8">
-  <div class="flex justify-center text-center">
-    <div id="frogContainer" class="border-8 rounded-full bg-green-800 border-green-950 h-1/2 w-1/2 md:w-5/12 xl:w-5/12 xl:max-w-md hover:opacity-90 transition duration-300">
-      <img id="frogImage" src="./images/frog.png" alt="frog" class="h-full w-full">
-      <div id="clickMeText" class="absolute inset-0 flex justify-center items-center opacity-0 text-white text-lg font-bold transition duration-300">
-        Click me!
+  <section class="text-center p-8">
+
+    <div class="flex justify-center text-center">
+      <div id="frogContainer" class="border-8 rounded-full bg-green-800 border-green-950 h-1/2 w-1/2 md:w-5/12 xl:w-5/12 xl:max-w-md  hover:opacity-90 transition duration-300">
+        <img id="frogImage" src="./images/frog.png" alt="frog" class="h-full w-full">
+        <div id="clickMeText" class="absolute inset-0 flex justify-center items-center opacity-0 text-white text-lg font-bold transition duration-300">Click me!</div>
       </div>
     </div>
-  </div>
 
   <div class="p-8 pb-16 md:pb-24 flex-col">
+
     <h1 class="text-5xl font-semibold">ALTON PHAN</h1>
     <p class="text-xl xl:text-2xl p-4">Aspiring <span class="text-lime-300">Software Engineer</span> and Computer Science<span class="text-lime-300"> Student</span></p>
 
     <ul class="flex justify-center gap-8 p-4 xl:pb-20">
       <li><a href="https://www.linkedin.com/in/altonphan/" target="_blank"><img src="images/linkedin.svg" class=" w-10 h-10 transition-transform transform hover:scale-110" alt="linkedin"></a></li>
       <li><a href="https://github.com/altonph" target="_blank"><img src="images/github.svg" class=" w-10 h-10 transition-transform transform hover:scale-110" alt="github"></a></li>
-      <li><a href="/dist/pdfs/Alton Phan Resume.pdf" target="_blank"><img src="images/cv.svg" class=" w-10 h-10 transition-transform transform hover:scale-110" alt="cv"></a></li>
+      <li><a href="/dist/pdfs/Alton Phan Resume F2023.pdf" target="_blank"><img src="images/cv.svg" class=" w-10 h-10 transition-transform transform hover:scale-110" alt="cv"></a></li>
     </ul>
+
   </div>
+
 </section>
 
 
     <!-- About Me Section -->
     <section id="about" class="mx-auto text-center py-16 md:-mt-20">
+
       <div class="max-w-5xl mx-auto">
+
         <h2 class="text-4xl font-semibold">About Me</h2>
         <h3 class="font-black mb-4">_____________</h3>
+
         <p class="text-center text-lg mx-auto">
-          Hello my name is <span class="text-lime-300 font-semibold">Alton Phan</span>! I am a junior at <span class="text-lime-300 font-semibold">University of Houston</span> pursuing a 
+          Hello my name is <span class="text-lime-300 font-semibold">Alton Phan</span>! I am a junior at <a href="https://www.uh.edu" target="_blank"><span class="text-lime-300 font-semibold">University of Houston</span></a> pursuing a 
           B.S. majoring in Computer Science with a minor in Mathematics. I am passionate 
           about software engineering, web development, and just about anything inside of 
           the tech realm. I am excited to contribute and experience more technological innovations in my time
           and hope that I can make a long lasting impact in the field. 
         </p>
+
       </div>
+
     </section>
 
     <!-- Projects Section -->
     <section id="projects" class="mx-auto text-center p-16">
+
       <h2 class="text-4xl font-semibold">Projects</h2>
       <h3 class="font-black mb-4">_____________</h3>
-      <!-- project details, descriptions, links, etc. -->
+
       <ul class="text-2xl font-semibold flex flex-col gap-8">
         <li><a class="hover:text-green-400 transition-all" href="https://github.com/altonph/alton-portfolio" target="_blank">Alton's Portfolio Website | HTML, TailwindCSS, Javascript</a></li>
-        <li><a class="hover:text-green-400 transition-all" href="https://github.com/altonph/ai-chatbot" target="_blank">Custom Trained AI Chatbot | Python, HTML, CSS, Flask</a></li>
-        <li><a class="hover:text-green-400 transition-all" href="https://github.com/altonph/COSC3360" target="_blank">Server Client Simulation | C++</a></li>
+        <li><a class="hover:text-green-400 transition-all" href="https://github.com/altonph/ai-chatbot" target="_blank">Custom Trained AI Chatbot | Python, Flask, HTML, CSS</a></li>
+        <li><a class="hover:text-green-400 transition-all" href="https://github.com/altonph/COSC3360" target="_blank">Client/Server Decompressor | C/C++</a></li>
       </ul>
+
         <p class="text-lg italic p-4">click on projects for source code</p>
+        
     </section>
 
     <!-- Contact Section -->
@@ -99,7 +109,7 @@
       <h2 class="text-4xl font-semibold">Contact Me</h2>
       <h3 class="font-black pb-8">_____________</h3>
     
-      <form id="contactForm" class="max-w-3xl mx-auto" action="https://formsubmit.co/altonphan@outlook.com" method="POST">
+      <form id="contactForm" class="max-w-3xl mx-auto" action="https://formsubmit.co/altonphan@outlook.com" method="post">
     
         <div class="flex flex-col gap-6">
           <input type="name" name="name" placeholder="Name" class="w-full h-12 px-4 py-2 border border-gray-400 focus:outline-none focus:border-green-500 text-black" required>
@@ -107,41 +117,35 @@
           <textarea type="message" name="message" placeholder="Message" rows="6" class="w-full h-60 px-4 py-2 border border-gray-400 focus:outline-none focus:border-green-500 text-black" required></textarea>
         </div>
     
-        <button type="submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-12 rounded-lg mt-6 mx-auto block focus:outline-none focus:ring focus:ring-green-300 focus:border-green-500">Submit</button>
-    
+        <input type="submit" value="Submit" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-12 rounded-lg mt-6 mx-auto block focus:outline-none focus:ring focus:ring-green-300 focus:border-green-500">
+        <input type="hidden" name="_next" value=""> 
+        <!-- replace value with link to thankyou page -->
       </form>
     
     </section>
-    
-    
-    
+
     <!-- Footer Section -->
     <footer class="justify-end mr-4 text-gray-300 hidden lg:flex">
       <p>Built by Alton Phan, Designed by Jorell Padilla</p>
     </footer>
 
+    <!-- navbar for mobile -->
     <nav class="fixed bottom-0 left-0 right-0 bg-sky-950 opacity-95 p-4 justify-center items-center z-50 border-t border-gray-700 lg:hidden flex gap-16 md:gap-40">
       <a href="#home" class="flex flex-col items-center text-white hover:text-lime-500">
         <img src="images/home.svg" alt="Home" class="w-8 h-8">
-        <!-- Home -->
       </a>
       <a href="#about" class="flex flex-col items-center text-white hover:text-lime-500">
         <img src="images/about.svg" alt="About" class="w-8 h-8">
-        <!-- About -->
       </a>
       <a href="#projects" class="flex flex-col items-center text-white hover:text-lime-500">
         <img src="images/project.svg" alt="Projects" class="w-8 h-8">
-        <!-- Projects -->
       </a>
       <a href="#contact" class="flex flex-col items-center text-white hover:text-lime-500">
         <img src="images/contact.svg" alt="Contact" class="w-10 h-10">
-        <!-- Contact -->
       </a>
     </nav>
 
   </main>
-
-
 
 </body>
 
