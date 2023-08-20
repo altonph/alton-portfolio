@@ -1007,9 +1007,12 @@ video {
 
 #clickMeText {
   position: absolute;
-  top: 50%; /* Center vertically */
-  left: 50%; /* Center horizontally */
-  transform: translate(-50%, -50%); /* Center the text */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  text-align: center; /* Center the text horizontally */
+  width: 100%; /* Ensure the text takes up the full width of the container */
 }
 
 body::-webkit-scrollbar {
