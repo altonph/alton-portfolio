@@ -989,20 +989,27 @@ video {
 }
 
 /* Additional CSS styles for the frog image container */
-
 .frog-container {
   text-align: center;
   margin-top: 20px;
+  position: relative; /* Added position */
 }
 
 .frog-image {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  background-color: #ffffff;
-  /* Initial background color */
+  background-color: #ffffff; /* Initial background color */
   transition: background-color 0.5s;
   cursor: pointer;
+  overflow: hidden; /* Hide the content outside the border */
+}
+
+#clickMeText {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the text */
 }
 
 body::-webkit-scrollbar {
